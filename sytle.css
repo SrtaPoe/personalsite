@@ -1,0 +1,34 @@
+*{ /*cores da página */
+    --background: #ad0ec2;
+}
+
+*{
+    margin:0;
+    padding: 0;
+    margin:0;
+}
+
+body{
+    background-color: var(--background);
+    align-items: center;
+    text-align: center;
+    margin-top: 80px;
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 32px;
+}
+
+#button-click {
+    text-align: center;
+    margin-top: 25px;
+    align-items: center;
+    background: red;
+    transition: initial;
+    cursor: pointer;
+}
+
+#button-click:hover{
+    background-color: royalblue;
+}
