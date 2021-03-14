@@ -1,3 +1,6 @@
+![GitHub language count](https://img.shields.io/github/languages/count/srtapoe/personalsite?style=social)
+![GitHub top language](https://img.shields.io/github/languages/top/srtapoe/personalsite?style=social)
+
 # personalsite
 
 ![result](https://user-images.githubusercontent.com/40921734/111082888-70d22a00-84e9-11eb-83b5-f2b92fc0c0b7.gif)
