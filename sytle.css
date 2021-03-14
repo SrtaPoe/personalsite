@@ -99,9 +99,13 @@ h2 {
     padding: 50px;
 }
 
-#banner-info h1 span{
+.text-animation {
     color:#ffff00;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
 }
+    
+
 
 #banner-info img {
     height: 120px;
