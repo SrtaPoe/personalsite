@@ -107,6 +107,13 @@ h2 {
     margin-bottom: 30px;
 }
 
+/*efeito zoom na imagem*/
+#banner-info img:hover {
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
 #banner-info p {
     background-color: rgb(14, 13, 13);
     font-weight: bold;
@@ -123,6 +130,159 @@ h2 {
     transition: .3s;
 }
 
+/*about*/
+
+#about-section {
+    text-align: center;
+    background-color: var(--amarelobatman);
+    color:black;
+    padding-top: 50px;
+    height: 350px;
+}
+
+#about-section h2 {
+    margin: bottom 20px;
+}
+
+#about-section p {
+    max-width: 650px;
+    margin-right: auto;
+    margin-left: auto;
+    line-height: 30px;
+}
+
+/*skills*/
+
+#skills-section {
+    margin-top: -100px;
+    background-color: #fff;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+
+#skills-section .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.skills-container {
+    flex: 1 1 1;
+    text-align: center;
+    padding: 60px 25px;
+}
+
+.central {
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    text-align: center;
+}
+
+.skills-container h3 {
+    color:rgb(14, 13, 13);
+    font-size: 20px;
+}
+
+.skills-container img {
+    height: 60px;
+    padding: 15px;
+    margin-bottom: 25px;
+    border-top: 1px solid var(--amarelobatman);
+    border-left: 1px solid var(--amarelobatman);
+    border-bottom: 4px solid var(--amarelobatman);
+    border-right: 4px solid var(--amarelobatman);
+}
+
+
+.skills-container img:hover {
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+
+.skills-container .subtitle {
+    font-weight: bold;
+    color: rgb(14, 13, 13);
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
+
+.skills-container p {
+    line-height: 25px;
+}
+
+/*jobs*/
+
+#jobs-section {
+    text-align: center;
+    padding-top: 50px;
+}
+
+#jobs-section h2 {
+    color: black;
+    margin-bottom: 30px;
+}
+
+
+#jobs-section p {
+    margin-bottom: 50px;
+}
+
+#jobs-section a {
+    font-weight: bold;
+    color: red;
+}
+
+.job-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+
+.job-box {
+    flex: 1 1 200px;
+    margin-left: 25px;
+    margin-right: 25px;
+    height: 300px;
+    background-size: cover;
+    border-right: 2px solid var(--amarelobatman);
+    border-left: 2px solid var(--amarelobatman);
+}
+
+.proj1 {
+    background-image: url('../personalsite/images/batmanfight.jpg');
+}
+
+.proj2 {
+    background-image: url('../personalsite/images/batmanfight.jpg');
+}
+
+.proj3 {
+    background-image: url('../personalsite/images/batmanfight.jpg');
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -135,6 +295,14 @@ h2 {
 
 
 /*
+
+.frames-container {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+
+
 body{
     background-color: var(--background);
     align-items: center;
