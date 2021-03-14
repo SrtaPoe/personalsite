@@ -1,10 +1,23 @@
-*{ /*cores da página */
-    --background: #ffffff;
-}
-
 *{
     margin:0;
-    font-family: 'Akaya Telivigala', cursive;
+    font-family: 'batman';
+}
+
+/*alterações de fonte feitas por Luiz Fernando Thomaz */
+@font-face {
+    font-family: "batman";
+    src: url("fonts/batmfa__.ttf") format("batmfa");
+    src: url("fonts/batmfo__.ttf") format("batmfo");
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'batman';
+}
+
+*{ /*cores da página */
+    --background: #ffffff;
 }
 
 h2 {
@@ -19,7 +32,10 @@ h2 {
     height: 60px;
 }
 
-#navbar h2, #navbar ul, #navbar-list li, #navbar nav {
+#navbar h2, 
+#navbar ul, 
+#navbar-list li, 
+#navbar nav {
     display: inline-block;
 }
 
