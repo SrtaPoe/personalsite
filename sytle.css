@@ -1,80 +1,94 @@
-*{ /*cores da página */
-    --background: #ffffff;
+@import url("/fonts/batmfa__.ttf");
+@import url("/fonts/batmfo__.ttf");
+
+/* 
+    Alteração feita - Por Luiz Fernando Thomaz 
+    Onde está escrito "mytypeface" - foi um nome de exemplo que coloquei,
+    mais você pode mudar.
+
+    - Temos um ponto:
+    1. Lá no Html, a importação para o css, não estava correta por isso não era encontrado as mudanças que tu
+    fez dentro desse arquivo
+*/
+* {
+  margin: 0;
+  font-family: mytypeface;
 }
 
-*{
-    margin:0;
-    font-family: 'Akaya Telivigala', cursive;
+@font-face {
+  font-family: "mytypeface";
+  src: url("/fonts/batmfa__.ttf") format("batmfa");
+  src: url("/fonts/batmfo__.ttf") format("batmfo");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: "mytypeface";
+}
+
+* {
+  /*cores da página */
+  --background: #ffffff;
+}
+
+* {
+  margin: 0;
+  font-family: "Akaya Telivigala", cursive;
 }
 
 h2 {
-    font-size: 30px;
+  font-size: 30px;
 }
 
 /*navbar*/
 #navbar {
-    background-color: black;
-    color: #fff;
-    padding: 0 15px;
-    height: 60px;
+  background-color: black;
+  color: #fff;
+  padding: 0 15px;
+  height: 60px;
 }
 
-#navbar h2, #navbar ul, #navbar-list li, #navbar nav {
-    display: inline-block;
+#navbar h2,
+#navbar ul,
+#navbar-list li,
+#navbar nav {
+  display: inline-block;
 }
 
 #navbar h2 {
-    margin: 0;
-    line-height: 70px;
-    margin-left: 75px;
+  margin: 0;
+  line-height: 70px;
+  margin-left: 75px;
 }
 
 #navbar img {
-    height: 50px;
-    position: absolute;
-    top: 3px;
+  height: 50px;
+  position: absolute;
+  top: 3px;
 }
 
 #navbar nav {
-    float: right;
-    
+  float: right;
 }
 
 #navbar ul {
-    margin-top: 22px;
+  margin-top: 22px;
 }
 
-
 #navbar li {
-    margin: 0 10px;
+  margin: 0 10px;
 }
 
 #navbar-list li a {
-    text-decoration: none;
-    color: #fff;
-    transition: .3s;
+  text-decoration: none;
+  color: #fff;
+  transition: 0.3s;
 }
-
 
 #navbar-list li a:hover {
-    background-color: rgb(250, 76, 76);
+  background-color: rgb(250, 76, 76);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
 body{
@@ -91,16 +105,15 @@ h1 {
 }
 */
 
-
 #button-click {
-    text-align: center;
-    margin-top: 25px;
-    align-items: center;
-    background: red;
-    transition: initial;
-    cursor: pointer;
+  text-align: center;
+  margin-top: 25px;
+  align-items: center;
+  background: red;
+  transition: initial;
+  cursor: pointer;
 }
 
-#button-click:hover{
-    background-color: royalblue;
+#button-click:hover {
+  background-color: royalblue;
 }
