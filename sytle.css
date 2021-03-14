@@ -18,6 +18,7 @@ body {
 
 *{ /*cores da página */
     --background: #ffffff;
+    --amarelobatman: #ffff00;
 }
 
 h2 {
@@ -73,7 +74,12 @@ h2 {
 
 
 #navbar-list li a:hover {
-    background-color: rgb(250, 76, 76);
+    background-color: var(--amarelobatman);
+    font-style: bold;
+    color:black;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 12px;
 }
 
 /*banner*/
@@ -108,9 +114,14 @@ h2 {
     margin-right: auto;
     margin-left: auto;
     padding: 15px
+    
 }
 
-
+#banner-info p:hover {
+    background-color: var(--amarelobatman);
+    color: black;
+    transition: .3s;
+}
 
 
 
