@@ -105,8 +105,6 @@ h2 {
     font-family: 'Courier New', Courier, monospace;
 }
     
-
-
 #banner-info img {
     height: 120px;
     border-radius: 60%;
@@ -145,11 +143,11 @@ h2 {
     background-color: var(--amarelobatman);
     color:black;
     padding-top: 50px;
-    height: 350px;
+    height: 450px;
 }
 
 #about-section h2 {
-    margin: bottom 20px;
+    margin-bottom: 20px;
 }
 
 #about-section p {
@@ -157,6 +155,8 @@ h2 {
     margin-right: auto;
     margin-left: auto;
     line-height: 30px;
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
 }
 
 /*skills*/
@@ -243,7 +243,8 @@ h2 {
 
 #jobs-section a {
     font-weight: bold;
-    color: red;
+    color: rgb(7, 7, 7);
+    text-decoration: none;
 }
 
 .job-container {
